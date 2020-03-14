@@ -21,17 +21,14 @@
                 <fieldset class="form__fieldset">
                     <div class="form__field">
                         <input class="form__input" type="text" name="name" pattern="^([А-Я]{1}[а-яё]{1,}|[А-Я]{1}[а-яё]{1,}-[А-Я]{1}[а-яё]{1,})$" placeholder="Имя" required />
+                        <span class="form__error">Имя пользователя</span>
                     </div>
                     <div class="form__field">
                         <input class="form__input" type="email" name="email" pattern="^([\w\-]@[\w\-]\.[a-z]*)$" placeholder="E-Mail" required />
                         <span class="form__error">e-mail в формате: students-yandex@yandex.ru</span>
                     </div>
                     <div class="form__field">
-<<<<<<< HEAD
                         <input class="form__input" type="tel" name="tel" placeholder="Телефон" pattern="^(\+7\s?(\(\d{3}\)\s?| ?\d{3}-)\d{3}-\d{2}-\d{2}|\+7\d{10}|8\d{10})$" minlength="18" maxlength="18"  required/>
-=======
-                        <input class="form__input" type="tel" name="tel" placeholder="Телефон" pattern="^(\+7\s?(\(\d{3}\)\s?| ?\d{3}-)\d{3}-\d{2}-\d{2}|\+7\d{10}|8\d{10})$" minlength="1" maxlength="18"  required/>
->>>>>>> 04d97a2d8ab7768cc46f4b142d132cdc2a179622
                         <span class="form__error">телефон в формате: +7 (900) 000-00-00</span>
                     </div>
                     <div class="form__field">
