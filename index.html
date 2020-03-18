@@ -8,7 +8,7 @@
 <body>
     <header class="header">
         <img class="header__logo" src="https://pictures.s3.yandex.net/frontend-developer/dom_bom/logo.svg" alt="logo">
-        <p class="header__logo-sub">Регулярные выражения</p>
+        <p class="header__logo-sub">Регулярные выражения Tretyak</p>
     </header>
     <main class="container">
         <div class="cover">
@@ -25,7 +25,7 @@
                         <span class="form__error">Введите имя</span>
                     </div>
                     <div class="form__field">
-                        <input class="form__input" type="email" name="email" pattern="^\w+([A-Za-z0-9\.\-_]+)@\w+([\.-]?\w+)(\.\w{2,3})+$" placeholder="E-Mail" required />
+                        <input class="form__input" type="email" name="email" pattern="^\w+([A-Za-z0-9\.\-_]+)@\w+([\.-]?\w+)(\.\w{2,})+$" placeholder="E-Mail" required />
                         <span class="form__error">e-mail в формате: students-yandex@yandex.ru</span>
                     </div>
                     <div class="form__field">
@@ -33,7 +33,7 @@
                         <span class="form__error">телефон в формате: +7 (900) 000-00-00</span>
                     </div>
                     <div class="form__field">
-                        <input class="form__input" type="url" name="url" pattern="^(https?:\/\/(www.)?(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}|\w+\.[a-z]{1,3})(\:[0-9]+)?((\/[a-z]+)+)?)$" placeholder="Ваш сайт" required/>
+                        <input class="form__input" type="url" name="url" pattern="^(https?:\/\/(www.)?(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}|\w+[A-Za-z0-9\.\-_]+\.[a-z]{2,3})(:[0-9]+)?((\/[a-z]+)+)?#?)$" placeholder="Ваш сайт" required/>
                         <span class="form__error">URL в формате: http://mysite.ru</span>
                     </div>
                     <button class="form__button" type="submit">Отправить</button>
